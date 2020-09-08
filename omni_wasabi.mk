@@ -33,6 +33,7 @@ PRODUCT_BRAND := realme
 PRODUCT_MODEL := realme G90T series
 PRODUCT_MANUFACTURER := realme
 
-# HACK: Set vendor patch level
+# HACK: Set vendor patch level and enable Treble
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.build.security_patch=2099-12-31
+    ro.vendor.build.security_patch=2099-12-31 \
+    ro.treble.enabled=true
