@@ -8,6 +8,12 @@ on fs
     install_keyring
 
 on fs
+    wait /dev/block/platform/bootdevice/
+    symlink /dev/block/platform/bootdevice/ /dev/block/bootdevice
+    
+    symlink /sbin/libMcGatekeeper.so /sbin/gatekeeper.mt6785.so
+    symlink /sbin/libMcGatekeeper.so /sbin/gatekeeper.oppo6785.so
+
     start hwservicemanager
     start servicemanager
 
