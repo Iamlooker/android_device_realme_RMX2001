@@ -29,9 +29,9 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/recovery/roo
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := wasabi
 PRODUCT_NAME := omni_wasabi
-PRODUCT_BRAND := realme
-PRODUCT_MODEL := realme G90T series
-PRODUCT_MANUFACTURER := realme
+PRODUCT_BRAND := Realme
+PRODUCT_MODEL := G90T series
+PRODUCT_MANUFACTURER := Realme
 
 # HACK: Set vendor patch level and enable Treble
 PRODUCT_PROPERTY_OVERRIDES += \
